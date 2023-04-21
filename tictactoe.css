@@ -1,0 +1,33 @@
+.board {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    color: black;
+    grid-template-rows: 50px 50px 50px;
+    gap: 2px;
+    padding: 20px;
+}
+
+.cell {
+    grid-column: 50px;
+    grid-row: 50px;
+    border: solid blueviolet 2px;
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+
+    text-align: center;
+    line-height: 2;
+    font-size: 26px;
+
+
+    /*! padding-bottom: ; */
+    /*! text-underline-position: auto; */
+}
+
+.restart {
+    margin-top: 10px;
+}
+
+.player {
+    text-align: center;
+}
